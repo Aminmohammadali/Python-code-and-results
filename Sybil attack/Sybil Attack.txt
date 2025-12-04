@@ -1,0 +1,12 @@
+To evaluate Sybil-attack detection, we configured one Raspberry Pi to generate ten endorsements and send them to another Raspberry Pi. The receiving device successfully detected the Sybil attack by observing that all signatures shared the same T_1 value, indicating that they originated from the same vehicle. 
+
+cmd codes:
+
+signer:
+
+/home/pi/projects/bplib_test/.venv/bin/python   /home/pi/Downloads/signer_pi_batch_parallel.py   --host 192.168.2.2   --port 5000   --message "1212122323||Alice"   --count 10   --workers 3   --runs 1
+
+verifier: 
+
+python3 /home/mmobarak/Downloads/verifier_pi_batch_tt_parallel_sybil.py --host 0.0.0.0  --port 5000 
+

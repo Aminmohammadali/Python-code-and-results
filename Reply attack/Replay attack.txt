@@ -1,0 +1,11 @@
+To evaluate Replay-attack detection, we configured one Raspberry Pi to generate ten endorsements with different timestamp and send them to another Raspberry Pi. In our design, timestamp is the first part of message. if it is changed for any reason, the verifier does not consider that endorsement and alert replay attck detection. 
+
+cmd codes:
+
+signer:
+
+/home/pi/projects/bplib_test/.venv/bin/python   /home/pi/Downloads/signer_pi_batch_parallel.py   --host 192.168.2.2   --port 5000   --message "1212122987||Alice"   --count 10   --workers 3   --runs 1
+
+verifier: 
+
+python3 /home/mmobarak/Downloads/verifier_pi_batch_tt_parallel_sybil.py --host 0.0.0.0  --port 5000 --sybil-disable

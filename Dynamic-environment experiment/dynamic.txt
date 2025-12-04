@@ -1,0 +1,3 @@
+verifier:python3 /home/mmobarak/Downloads/verifier_final.py --host 0.0.0.0  --port 5000   --disable-sybil
+
+home/pi/projects/bplib_test/.venv/bin/python   /home/pi/Downloads/signer_pi_batch_parallel_delayandjiter.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 100   --runs 100   --delay-mu 50   --delay-sigma 20   --output results_mu20_sigma10.json
