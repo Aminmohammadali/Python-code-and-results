@@ -18,7 +18,7 @@ The system consists of several Python scripts that work together to implement th
 
 ### **System Architecture and communication flows:**
 
-![Architecture](https://raw.githubusercontent.com/Aminmohammadali/C-ITS/main/Arch.jpg) width="400" alt="Architecture"
+![Architecture](https://raw.githubusercontent.com/Aminmohammadali/C-ITS/main/Arch.jpg) 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ### **Description:** 
@@ -38,7 +38,7 @@ To evaluate attacks and simulate a dynamic environment, we model a realistic sce
 Furthermore, we show that our scheme is resistant to replay  and unforgeability attacks. In the dynamic-environment experiment, we introduce delay and jitter using CMD commands to emulate network conditions and examine their effects on message transmission between vehicles and RSUs.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-### **Setup:** 
+### **Setup Libraries:** 
 
 This library cannot be installed on Windows laptops. Please use a macOS system or a Raspberry Pi 4 or 5 instead.
 
