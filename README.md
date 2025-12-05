@@ -18,7 +18,7 @@ The system consists of several Python scripts that work together to implement th
 
 ### **System Architecture and communication flows:**
 
-![Architecture](https://raw.githubusercontent.com/Aminmohammadali/C-ITS/main/Arch.jpg width="400" alt="Architecture") 
+![Architecture](https://raw.githubusercontent.com/Aminmohammadali/C-ITS/main/Arch.jpg) width="400" alt="Architecture"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ### **Description:** 
