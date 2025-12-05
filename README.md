@@ -46,11 +46,11 @@ This library cannot be installed on Windows laptops. Please use a macOS system o
 * **Open bplib**: Once Open s.s.l is installed, you can proceed to install bplib.
 * **Run Codes**: The system is now ready. Run the generated code using the following CMD commands:
 
-Signer CMD code: /home/pi/projects/bplib\_test/.venv/bin/python   /home/pi/Downloads/signer\_pi\_batch\_parallel.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 1   --runs 10
+1. Signer CMD code: /home/pi/projects/bplib\_test/.venv/bin/python   /home/pi/Downloads/signer\_pi\_batch\_parallel.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 1   --runs 10
 
-Signer CMD code with delay and jiter: /home/pi/projects/bplib\_test/.venv/bin/python   /home/pi/Downloads/signer\_pi\_batch\_parallel\_delayandjiter.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 10   --runs 1000   --delay-mu 20   --delay-sigma 10   --output results\_mu20\_sigma10.json
+2. Signer CMD code with delay and jiter: /home/pi/projects/bplib\_test/.venv/bin/python   /home/pi/Downloads/signer\_pi\_batch\_parallel\_delayandjiter.py   --host 192.168.2.2   --port 5000   --message "1212122423||Alice"   --count 10   --runs 1000   --delay-mu 20   --delay-sigma 10   --output results\_mu20\_sigma10.json
 
-Verifier CMD code: python3 /home/mmobarak/Downloads/verifier\_final.py --host 0.0.0.0  --port 5000   --disable-sybil
+3. Verifier CMD code: python3 /home/mmobarak/Downloads/verifier\_final.py --host 0.0.0.0  --port 5000   --disable-sybil
 
-Verifier CMD code for sybil attack check: python3 /home/mmobarak/Downloads/verifier\_final.py --host 0.0.0.0  --port 5000
+4. Verifier CMD code for sybil attack check: python3 /home/mmobarak/Downloads/verifier\_final.py --host 0.0.0.0  --port 5000
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
